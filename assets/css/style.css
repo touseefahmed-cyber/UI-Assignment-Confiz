@@ -1,0 +1,442 @@
+body{
+    background: #f8f8f8 !important;
+}
+/*---top-bar-con*/
+.top-bar-con{
+    background: #e31937;
+    padding: 4px 31px;
+}
+.top-bar-left img{
+    width: 137px;
+    height: 37px;
+}
+.top-bar-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.top-bar-right img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    float: right;
+    margin: 7px 7px 3px;
+}
+.top-bar-right .fa{
+    margin: 15px 9px 0;
+    color: white;
+    font-size: 23px;
+}
+/*---top-bar-con*/
+/*----header-con---*/
+.header-con{
+    padding:10px;
+}
+.header-con-left h1{
+    float: left;
+    margin-bottom: 0;
+    color: #646464;
+    font-size: 20px;
+    font-weight: 400;
+  padding: 2px 6px 0 0;
+
+}
+.calender-btn{
+    padding-top: 10px;
+}
+.header-con-left h1 span{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+.header-con-left a{
+    text-decoration: none;
+    display: inline-block;
+    color: #646464;
+    font-size: 14px;
+    padding: 7px 19px !important;
+}
+.active{
+    color: #ffffff !important;
+    margin: 4px 17px;
+}
+.active , .header-con-left a:hover{
+    color: white;
+    border-radius: 5px;
+    background: #e31937;
+    padding: 7px 19px !important;
+    text-decoration: none;
+}
+.header-con-right .form-control {
+    width: 170px;
+    float: right;
+    font-size: 15px;
+    height: 37px !important;
+    font-weight: 600;
+    border: 1px solid #dedede;
+    background-color: #ffff;
+    padding: 0 7px;
+    color: #645757;
+}
+.header-con-right .form-control:focus{
+    box-shadow: none;
+    border-color: #dedede;
+}
+.carousel-btn{
+    background: white;
+    border-radius: 4px 0 0 4px;
+    padding: 2px 10px;
+    border: 1px solid #dcd6d6;
+    margin-right: -5px;
+}
+.carousel-btn2{
+    border-radius: 0 4px 4px 0;
+    border-left:none;
+}
+.carousel-btn:focus{
+    outline: none;
+}
+.carousel-btn{
+    color:  #dedede;
+    font-size: 17px;
+}
+
+/*----header-con---*/
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    background: #ffffff;
+}
+/*----thead-con---*/
+.table-day th{
+    font-size: 17px;
+    font-weight: 800;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    color: #938d8d;
+}
+.table-day th span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #a29797;
+}
+thead .table-day th:nth-child(9){
+    width:90px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: 500;
+}
+thead .table-day th:first-child{
+    width:143px ;
+    height: 52px;
+}
+/*----thead-con----*/
+.client-information {
+    padding: 13px 18px 13px 0;
+}
+.client-information img{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+.client-information h3{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 13px 0;
+    margin-bottom: 0;
+}
+.table-description1 td,
+.table-description2 td,
+.table-description3 td
+{
+    border: 1px solid #ccc;
+    position: relative;
+    padding: 15px 15px 50px;
+}
+.table-description1{
+    vertical-align: baseline;
+}
+
+.table-description2{
+    height:239px;
+    vertical-align: baseline;
+}
+.table-description1 td:first-child{
+    width:146px !important;
+}
+.time-con{
+    border-bottom: 1px solid #f3f0f0f4;
+    transform: translateY(-22px);
+    margin: 0 -16px;
+}
+.time-con span{
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 0 8px;
+}
+.description-box,
+.Leadership-box,
+.break-time
+{
+    text-align: left;
+}
+.description-box span,
+.Leadership-box span,
+.break-time span
+{
+    font-weight: 700;
+}
+.description-box p{
+    margin-bottom: 8px;
+    display: inline-block;
+    min-width: 75%;
+    font-size: 14px;
+    color: #729dc5;
+    background: #e0effa;
+    border-radius: 3px;
+    border: 1px solid #729dc5;
+    padding: 5px;
+    line-height: 16px;
+}
+.Leadership-box p{
+    margin-bottom: 8px;
+    display: inline-block;
+    min-width: 100%;
+    font-size: 14px;
+    color: #729dc5;
+    background: #e0effa;
+    padding: 5px;
+    line-height: 16px;
+    border-radius: 3px;
+    border: 1px solid #729dc5;
+}
+.break-time{
+    font-size: 14px;
+    background: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #729dc5;
+    float: left;
+    min-width: 105%;
+    display: flex;
+    line-height: 16px;
+    padding: 5px;
+}
+.break-time p{
+    float: right;
+    margin-bottom: 0;
+}
+.Maclane-box p{
+    color: #e52e45;
+    margin-top: 8px;
+    background: #ffd2d2;
+    border: 1px solid #e52e45;
+}
+.Add-Tags-box p{
+    color: #98cc8c;
+    margin-top: 5px;
+    background: #e4f8d9;
+    border: 1px solid #98cc8c;
+}
+.Dc-Receive-box p{
+    color: #c97b01;
+    margin-top: 8px;
+    background: #fef9af;
+    border: 1px solid #c97b01;
+}
+.Mega-Savers-box p{
+    color: #359084;
+    margin-top: 5px;
+    background: #b4ffd2;
+    border: 1px solid #359084;
+}
+.cutlery-icon{
+    padding:5px;
+}
+.note-icon-con{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 5px;
+    color: #b0b0b0;
+}
+.table-note{
+    font-size: 12px;
+    text-align: left !important;
+}
+.note-icon-inner-con{
+    float: right;
+}
+.note-icon-inner-con .fa{
+    font-size: 17px;
+}
+.note-icon-inner-con .fa-plus{
+    padding-right: 24px;
+}
+.table-inner-note{
+    padding: 1px 8px;
+    background: red;
+    margin-left: 3px;
+    color: white;
+    border-radius: 5px;
+}
+.scheduled-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+table thead {
+    background-color: #e3e3e3;
+}
+
+table tbody td:hover{
+    background-color: #f8f8f8;
+}
+
+table td {
+    text-align: center;
+}
+/*
+.note-icon-inner-con{
+    display: none;
+}
+.note-icon-inner-con:hover{
+    display: block;
+}
+*/
+@media screen and (max-width: 330px){
+    .top-bar-inner-con{
+        text-align: center;
+    }
+    .top-bar-right{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 992px){
+    .time-con span{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 920px){
+    .table-description1 td,
+    .table-description2 td,
+    .table-description3 td{
+        padding-left: 3px;
+        padding-right: 6px;
+    }
+    .time-con{
+        margin: 5px -5px;
+    }
+    .time-con span{
+        font-size: 16px;
+    }
+    .table-day th{
+        padding: 6px 3px;
+    }
+    thead .table-day th:nth-child(9){
+        padding-left: 11px;
+    }
+    .form-control.form-control-lg {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .form-control.form-control-lg{
+        width:100%;
+    }
+    .header-con-left h1 {
+        float: none;
+        display: inline-block;
+    }
+
+}
+@media screen and (max-width: 767px){
+
+    .header-con-left a{
+        margin-right: -2px;
+        font-size: 13px;
+    }.calender-btn,.tabs-btn{
+         text-align: center;
+     }
+}
+@media screen and (max-width: 823px){
+    table {
+        border: 0;
+    }
+    table caption {
+        font-size: 1.3em;
+    }
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    table tr {
+        border-bottom: 3px solid #ddd;
+        margin-bottom: .625em;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    table td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    table td:last-child {
+        border-bottom: 0;
+    }
+    .client-information{
+        text-align: center;
+        padding: 5px !important;
+    }
+    .table-description1 td,
+    .table-description2 td
+    {
+        padding: 15px 15px 39px;
+    }
+    .table-description1 td:first-child{
+        width: 100% !important;
+    }
+    .time-con{
+      transform: none;
+    }
+    .time-con span{
+        position: relative;
+        margin: 0;
+        bottom: 8px;
+    }
+   .break-time{
+       float: none;
+   }
+    .table-description1,
+    .table-description2
+    {
+        height: 0;
+    }
+    .client-information h3{
+        padding: 0;
+    }
+   .break-time
+   {
+       min-width: 0;
+   }
+}
